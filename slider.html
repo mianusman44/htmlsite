@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <title>Slider</title>
+    <link href="slider.css"  rel="stylesheet" type="text/css">
+    <script src="slider.js"></script>
+</head>
+
+<div class="slider">
+
+<img class="slides" src="e1.jpg">
+<img class="slides" src="e2.jpg">
+<img class="slides" src="e3.jpg">
+<img class="slides" src="e4.jpg">
+<button class="btn" id="btn-1" >&#10094;</button>
+<button class="btn" id="btn-2">&#10095;</button>
+
+
+
+
+
+</div>
+
+
+
+
+<script>
+    
+
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
+
+<head>
+    <title>Slider</title>
+    <link href="slider.css"  rel="stylesheet" type="text/css">
+    <script src="slider.js"></script>
+</head>
+
+<div class="slider">
+
+<img class="slides" src="e1.jpg">
+<img class="slides" src="e2.jpg">
+<img class="slides" src="e3.jpg">
+<img class="slides" src="e4.jpg">
+<button class="btn" id="btn-1" onclick="prev(-1);">&#10094;</button>
+<button class="btn" id="btn-2" onclick="next(1);">&#10095;</button>
+
+
+
+
+
+</div>
+
+
+
+
+<script>
+var index=1;
+
+showslides(1);
+function prev(n){
+index=index -n;
+showslides(index);
+}
+function next(n){
+    index=index+n;
+showslides(index);
+
+}
+function showslides(n){
+    var a=document.getElementsByClassName("slides");
+    
+    if(n>a.length){
+        index=1;
+    }
+    if(n<1){
+        index=a.length;
+    }
+    var i;
+    for(i=0; i<a.length; i++){
+a[i].style.display="none";
+
+
+    }
+    a[index-1].style.display="block";
+}
+autoslide();
+function autoslide(){
+    var a=document.getElementsByClassName("slides");
+    var i;
+    for(i=0; i<a.length; i++){
+a[i].style.display="none";
+    }
+    if(index>a.length){index=1; }
+    a[index-1].style.display="block";
+    index++;
+
+    setTimeout(autoslide,2000);
+    
+}
+
+
+</script>
+
+
+
+</body>
+</html> -->

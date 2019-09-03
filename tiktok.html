@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <style>
+            
+            
+            
+            </style>
+    </head>
+
+    <body>
+<h1>Tik tok game</h1>
+<table>
+        <tr>
+        <td ><input type="text" id="cell1"  onclick="insert(1);" style="height:40px;width:40px;" ></td>
+        <td ><input type="text" id="cell2"  onclick="insert(2);" style="height:40px;width:40px;"></td>
+        <td ><input type="text" id="cell3"  onclick="insert(3);" style="height:40px;width:40px;"></td>
+        </tr>
+        <tr>
+            <td ><input type="text" id="cell4"   onclick="insert(4);" style="height:40px;width:40px;"></td>
+            <td ><input type="text" id="cell5"   onclick="insert(5);" style="height:40px;width:40px;"></td>
+            <td ><input type="text" id="cell6"    onclick="insert(6);" style="height:40px;width:40px;"></td>
+            </tr>
+            <tr>
+                <td ><input type="text" id="cell7"   onclick="insert(7);" style="height:40px;width:40px;"></td>
+                <td><input type="text" id="cell8"   onclick="insert(8);" style="height:40px;width:40px;"></td>
+                <td><input type="text" id="cell9"    onclick="insert(9);" style="height:40px;width:40px;"></td>
+                </tr>
+    </table>
+    <input type="text" class="cell1"  onclick="insert(1);" >
+
+
+
+
+    <script>
+            var turn='$';
+    function insert(cheak){
+    
+   
+if(cheak==1)
+{  alert("hello");
+    document.getElementById('cell1').value=turn;
+    
+    
+    }
+    if(cheak==2)
+{
+    document.getElementById('cell2').value=turn;
+    
+    }
+    if(cheak==3)
+{
+    document.getElementById('cell3').value=turn;
+    
+    }
+    if(cheak==4)
+{
+    document.getElementById('cell4').value=turn;
+    
+    }
+    if(cheak==5)
+{
+    document.getElementById('cell5').value=turn;
+    
+    }
+    if(cheak==6)
+{
+    document.getElementById('cell6').value=turn;
+    
+    }
+    if(cheak==7)
+{
+    document.getElementById('cell7').value=turn;
+    
+    }
+    if(cheak==8)
+{
+    document.getElementById('cell8').value=turn;
+    
+    }
+    if(cheak==9)
+{
+    document.getElementById('cell9').value=turn;
+    
+    }
+
+    if(turn=='$')
+    {
+        turn='#';
+    }
+    else if(turn=='#')
+    {
+        turn='$';
+    }
+    
+    }
+    
+    
+    
+    </script>
+    </body>
+</html>
